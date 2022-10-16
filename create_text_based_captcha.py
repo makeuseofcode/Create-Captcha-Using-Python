@@ -11,4 +11,4 @@ captcha_text = input("Please enter text: ")
 data = image.generate(captcha_text)
 
 #save the captcha image file
-image.write(captcha_text, (captcha_text)+".jpg")
+image.write(captcha_text, (captcha_text)+".png")
