@@ -5,7 +5,7 @@ from captcha.image import ImageCaptcha
 image = ImageCaptcha(width = 750, height = 300)
 
 #enter the text to create its captcha
-captcha_text = input("Please enter text: ")
+captcha_text = input("Please enter text: 5531515401 ")
 
 #generate the text-based captcha
 data = image.generate(captcha_text)
